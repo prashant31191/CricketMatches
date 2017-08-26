@@ -42,7 +42,7 @@ public class CricketMatchDataAdapter  extends ArrayAdapter<CricketMatchData> {
         TextView title = (TextView) listItemView.findViewById(R.id.title);
 
         if (currentMatch != null) {
-            title.setText(currentMatch.getTitle());
+            title.setText(currentMatch.getTitle() + "\n \n "+ currentMatch.getDate());
         }
 
 

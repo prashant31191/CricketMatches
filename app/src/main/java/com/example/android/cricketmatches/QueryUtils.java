@@ -71,9 +71,14 @@ public final class QueryUtils {
             Log.e(LOG_TAG, "Problem making the HTTP request.", e);
         }
 
-
-        List<CricketMatchData> cricketMatchDatas = extractMatchFeatureFromJson(jsonResponse);
-
+        List<CricketMatchData> cricketMatchDatas = new ArrayList<>();
+        if(requestUrl.contains("cricket"))
+        {
+            cricketMatchDatas = extractMatchCricketFromJson(jsonResponse);
+        }
+        else {
+            cricketMatchDatas = extractMatchFeatureFromJson(jsonResponse);
+        }
         return cricketMatchDatas;
     }
 
@@ -175,6 +180,50 @@ public final class QueryUtils {
 
                 String name=currentMatch.getString("name");
                 String date = currentMatch.getString("date");
+                String unique_id=currentMatch.getString("unique_id");
+
+                CricketMatchData matchData = new CricketMatchData(name,unique_id,date);
+
+                cricketMatchDatas.add(matchData);
+
+            }
+
+        } catch (JSONException e) {
+            // If an error is thrown when executing any of the above statements in the "try" block,
+            // catch the exception here, so the app doesn't crash. Print a log message
+            // with the message from the exception.
+            Log.e("QueryUtils", "Problem parsing the cricket JSON results", e);
+        }
+
+
+        return cricketMatchDatas;
+    }
+
+    private static List<CricketMatchData> extractMatchCricketFromJson(String cricketJSON) {
+       if (TextUtils.isEmpty(cricketJSON)) {
+            return null;
+        }
+
+
+        List<CricketMatchData> cricketMatchDatas = new ArrayList<>();
+
+        try {
+
+
+            JSONObject baseJsonResponse = new JSONObject(cricketJSON);
+
+            // Extract the JSONArray associated with the key called "features",
+            // which represents a list of features (or earthquakes).
+            JSONArray cricketArray = baseJsonResponse.getJSONArray("data");
+
+
+            for (int i = 0; i < cricketArray.length(); i++) {
+
+
+                JSONObject currentMatch = cricketArray.getJSONObject(i);
+
+                String name=currentMatch.getString("title");
+                String date = currentMatch.getString("description");
                 String unique_id=currentMatch.getString("unique_id");
 
                 CricketMatchData matchData = new CricketMatchData(name,unique_id,date);

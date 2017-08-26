@@ -1,17 +1,17 @@
 package com.example.android.cricketmatches;
 
+import android.app.LoaderManager.LoaderCallbacks;
 import android.content.Context;
 import android.content.Intent;
+import android.content.Loader;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
-import android.app.LoaderManager.LoaderCallbacks;
-import android.content.Loader;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,13 +19,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
-public class MainActivity extends AppCompatActivity implements LoaderCallbacks<List<CricketMatchData>> {
+public class CricketMatchActivity extends AppCompatActivity implements LoaderCallbacks<List<CricketMatchData>> {
 
     private TextView mEmptyStateTextView;
-private Button btnNewdata;
+    private Button btnNewdata;
+
     private static final String CRICKET_MATCH_URL=
-            "http://cricapi.com/api/matchCalendar?apikey=Rqzvnj7JsTa4FjHwt2bxKzD1up92" ;
+            "http://cricapi.com/api/cricket?apikey=Rqzvnj7JsTa4FjHwt2bxKzD1up92" ;
 
     private static final int CRICKET_LOADER_ID = 1;
 
@@ -64,13 +64,15 @@ private Button btnNewdata;
 
         mEmptyStateTextView = (TextView) findViewById(R.id.empty_view);
         btnNewdata = (Button) findViewById(R.id.btnNewdata);
-        btnNewdata.setText("Live Match");
+        btnNewdata.setText("Feature Live Match");
         btnNewdata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,CricketMatchActivity.class));
+                startActivity(new Intent(CricketMatchActivity.this,MainActivity.class));
             }
         });
+
+
 
         cricketListView.setEmptyView(mEmptyStateTextView);
 
@@ -88,7 +90,7 @@ private Button btnNewdata;
                 CricketMatchData data = criketMatch.get(position);
                 Toast toast = Toast.makeText(getApplicationContext(), data.getDate(), Toast.LENGTH_SHORT);
                 toast.show();
-              Intent score = new Intent(MainActivity.this, Main2Activity.class).putExtra("unique_id",data.getUnique_id());
+              Intent score = new Intent(CricketMatchActivity.this, Main2Activity.class).putExtra("unique_id",data.getUnique_id());
                 score.putExtra("sdate",data.getDate());
                 score.putExtra("title",data.getTitle());
              startActivity(score);

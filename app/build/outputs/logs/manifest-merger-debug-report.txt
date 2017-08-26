@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:17:1-28:12
@@ -16,9 +16,9 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gr
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:17:1-31:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
@@ -40,7 +40,7 @@ ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:8:5-25:19
+ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:29:5-20
@@ -87,14 +87,22 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:18:27-74
-activity#com.example.android.cricketmatches.Main2Activity
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:9-24:21
+activity#com.example.android.cricketmatches.CricketMatchActivity
+ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:9-24:20
 	android:label
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:22:13-34
+		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:22:13-39
 	android:theme
 		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:23:13-46
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:19-48
+		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:19-55
+activity#com.example.android.cricketmatches.Main2Activity
+ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:25:9-28:21
+	android:label
+		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:26:13-34
+	android:theme
+		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:27:13-46
+	android:name
+		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:25:19-48
 uses-sdk
 INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
