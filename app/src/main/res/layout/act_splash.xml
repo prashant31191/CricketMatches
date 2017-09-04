@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/img"
+        android:scaleType = "centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50000000"
+        />
+
+    <ImageView
+        android:id="@+id/ivAppIcon"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/app_icon"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivAppIcon"
+        android:layout_marginTop="8dp"
+
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

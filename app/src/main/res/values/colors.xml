@@ -6,4 +6,18 @@
     <color name="color1Primary">#03A9F4</color>
     <color name="color2PrimaryDark">#0288D1</color>
     <color name="color3Accent">#00BCD4</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+    <color name="trWhiteFull">#80ffffff</color>
+    <color name="bgTrWhite">#80ffffff</color>
+    <color name="clrSaffron">#F32F2F</color>
+    <color name="gray">#888888</color>
+    <color name="clrBottomTag">#888888</color>
+    <color name="clrTvDetail">#333333</color>
+    <color name="HMprimaryPressed">#D32F2F</color>
+    <color name="HMprimaryFocused">#D32F2F</color>
+
+    <color name="clr_bg_base">#F44336</color>
 </resources>

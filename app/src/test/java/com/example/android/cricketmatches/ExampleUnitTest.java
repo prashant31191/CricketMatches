@@ -1,4 +1,4 @@
-package com.example.android.cricketmatches;
+package com.crickbit;
 
 import org.junit.Test;
 

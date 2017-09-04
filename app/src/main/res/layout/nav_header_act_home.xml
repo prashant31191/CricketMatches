@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:fitsSystemWindows="true"
+    android:gravity="left"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <!--@dimen/nav_header_height-->
+
+
+
+    <RelativeLayout
+        android:id="@+id/rlBaseMenuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+android:visibility="gone"
+        >
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivNotificationBase"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:padding="15dp"
+            android:background="@drawable/btn_home_ripple"
+
+            android:scaleType="fitCenter"
+             />
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@+id/rlBaseMenuHeader2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/m_35dp"
+
+
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/my_image_view"
+
+            fresco:placeholderImage="@drawable/app_icon"
+
+            android:visibility="visible"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="@dimen/m_14dp"
+            android:layout_marginRight="@dimen/m_5dp"
+            />
+
+    <ImageView
+        android:id="@+id/ivUserPhotoBase"
+        android:visibility="gone"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/m_14dp"
+        android:layout_marginRight="@dimen/m_5dp"
+
+        android:padding="1dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+
+         />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvUsernameBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        android:layout_marginLeft="@dimen/m_14dp"
+        android:layout_marginRight="@dimen/m_5dp"
+
+        android:layout_marginTop="@dimen/m_10dp"
+        android:text="@string/app_name"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_18s"
+        android:layout_alignParentTop="true"
+         />
+    <TextView
+        android:id="@+id/tvUseremailBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/m_14dp"
+        android:layout_marginRight="@dimen/m_5dp"
+        android:layout_marginTop="@dimen/m_3dp"
+        android:layout_marginBottom="@dimen/m_35dp"
+        android:text="powered by @azteam"
+        android:singleLine="true"
+        android:textColor="@color/bgTrWhite"
+        android:textSize="@dimen/text_14s"
+        android:layout_below="@+id/tvUsernameBase" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
