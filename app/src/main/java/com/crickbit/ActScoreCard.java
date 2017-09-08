@@ -1,40 +1,19 @@
 package com.crickbit;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.RectF;
-import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.helper.ItemTouchHelper;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.api.ApiService;
-import com.api.model.HeaderMod;
-import com.api.model.MatchesMod;
 import com.api.model.SCRInningsMod;
-import com.api.model.VenueMod;
 import com.api.response.ScorecardRes;
 import com.cjj.MaterialRefreshLayout;
 import com.cjj.MaterialRefreshListener;
 import com.google.gson.Gson;
 import com.utils.AppFlags;
 import com.utils.CustomProgressDialog;
-import com.utils.PreferencesKeys;
 
 import java.util.ArrayList;
 
@@ -50,11 +29,12 @@ public class ActScoreCard extends BaseActivity {
     Call callApiMethod;
     CustomProgressDialog customProgressDialog;
 
-    String strFrom = "", strTitle = "Score Card",strMatchId="";
+    String strFrom = "", strTitle = "Score Card", strMatchId = "";
     ArrayList<SCRInningsMod> arrayListSCRInningsMod = new ArrayList<>();
 
-    TextView tvName,tvDetail;
+    TextView tvName, tvDetail;
 
+    MaterialRefreshLayout materialRefreshLayout;
 
 
     @SuppressLint("InlinedApi")
@@ -87,16 +67,20 @@ public class ActScoreCard extends BaseActivity {
             setEnableDrawer(false);
             tvTitle.setText(strTitle);
 
-            tvName = (TextView)findViewById(R.id.tvName);
-            tvDetail = (TextView)findViewById(R.id.tvDetail);
+            tvName = (TextView) findViewById(R.id.tvName);
+            tvDetail = (TextView) findViewById(R.id.tvDetail);
 
+            materialRefreshLayout = (MaterialRefreshLayout) findViewById(R.id.refresh);
+            materialRefreshLayout.setIsOverLay(true);
+            materialRefreshLayout.setWaveShow(true);
+            materialRefreshLayout.setWaveColor(0x55ffffff);
+
+            materialRefreshLayout.setLoadMore(false);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-
 
 
     private void setApiData() {
@@ -134,6 +118,34 @@ public class ActScoreCard extends BaseActivity {
             }
         });
 
+        materialRefreshLayout.setMaterialRefreshListener(new MaterialRefreshListener() {
+            @Override
+            public void onRefresh(final MaterialRefreshLayout materialRefreshLayout) {
+                //refreshing...
+                if (App.isInternetAvail(ActScoreCard.this)) {
+
+                    asyncGetNotificationList();
+
+                } else {
+                    App.showSnackBar(tvTitle, getString(R.string.strNetError));
+
+                }
+            }
+
+            @Override
+            public void onRefreshLoadMore(MaterialRefreshLayout materialRefreshLayout) {
+                try {
+
+                    App.showSnackBar(rlMenu, "No more match found.");
+                    materialRefreshLayout.finishRefresh();
+                    // load more refresh complete
+                    materialRefreshLayout.finishRefreshLoadMore();
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 
 
@@ -144,13 +156,19 @@ public class ActScoreCard extends BaseActivity {
             customProgressDialog.show();
             callApiMethod = apiService.getScoreCard(strMatchId);
 
-            App.showLogApi("data pass---strMatchId=="+strMatchId);
+            App.showLogApi("data pass---strMatchId==" + strMatchId);
 
             callApiMethod.enqueue(new Callback<ScorecardRes>() {
                 @Override
                 public void onResponse(Call<ScorecardRes> call, Response<ScorecardRes> response) {
                     try {
                         customProgressDialog.dismiss();
+
+                        materialRefreshLayout.finishRefresh();
+                        // load more refresh complete
+                        materialRefreshLayout.finishRefreshLoadMore();
+
+
 
                         ScorecardRes model = response.body();
                         if (model == null) {
@@ -190,6 +208,10 @@ public class ActScoreCard extends BaseActivity {
                     } catch (Exception e) {
                         e.printStackTrace();
                         customProgressDialog.dismiss();
+
+                        materialRefreshLayout.finishRefresh();
+                        // load more refresh complete
+                        materialRefreshLayout.finishRefreshLoadMore();
                     }
                 }
 
@@ -198,80 +220,82 @@ public class ActScoreCard extends BaseActivity {
 
                     t.printStackTrace();
                     customProgressDialog.dismiss();
+
+                    materialRefreshLayout.finishRefresh();
+                    // load more refresh complete
+                    materialRefreshLayout.finishRefreshLoadMore();
                     App.showSnackBar(tvTitle, getString(R.string.strSomethingWentwrong));
                 }
             });
         } catch (Exception e) {
             e.printStackTrace();
+
+            customProgressDialog.dismiss();
+
+            materialRefreshLayout.finishRefresh();
+            // load more refresh complete
+            materialRefreshLayout.finishRefreshLoadMore();
+            App.showSnackBar(tvTitle, getString(R.string.strSomethingWentwrong));
         }
     }
 
 
-    private void setDetailData()
-    {
-        try
-        {
+    private void setDetailData() {
+        try {
             tvName.setText(strTitle);
             tvDetail.setText("");
 
             String strData = "\n";
 
-            if(arrayListSCRInningsMod !=null && arrayListSCRInningsMod.size() > 0)
-            {
-                for(int i=0; i< arrayListSCRInningsMod.size(); i++)
-                {
+            if (arrayListSCRInningsMod != null && arrayListSCRInningsMod.size() > 0) {
+                for (int i = 0; i < arrayListSCRInningsMod.size(); i++) {
 
 
-                    strData = strData+"bating team : "+ arrayListSCRInningsMod.get(i).bat_team_name + "\n" ;
-                    strData = strData+ "score : "+ arrayListSCRInningsMod.get(i).score + "\n" ;
-                    strData = strData+ "wicket : "+ arrayListSCRInningsMod.get(i).wkts + "\n" ;
-                    strData = strData+ "over : "+ arrayListSCRInningsMod.get(i).ovr + "\n" ;
+                    strData = strData + "bating team : " + arrayListSCRInningsMod.get(i).bat_team_name + "\n";
+                    strData = strData + "score : " + arrayListSCRInningsMod.get(i).score + "\n";
+                    strData = strData + "wicket : " + arrayListSCRInningsMod.get(i).wkts + "\n";
+                    strData = strData + "over : " + arrayListSCRInningsMod.get(i).ovr + "\n";
 
-                    if(arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod !=null && arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.size() > 0)
-                    {
+                    if (arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod != null && arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.size() > 0) {
                         strData = strData + "\n \n  ========BATSMEN=======\n \n";
 
-                        for(int j=0;j<arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.size(); j++)
-                        {
-                            strData = strData +"\n";
-                            strData = strData+ "out_desc : "+ arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j).out_desc + "\n" ;
-                            strData = strData+ "run : "+ arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j).r + "\n" ;
-                            strData = strData+ "ball : "+ arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j).b + "\n" ;
-                            strData = strData+ "4s : "+ arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j)._4s + "\n" ;
-                            strData = strData+ "6s : "+ arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j)._6s + "\n" ;
+                        for (int j = 0; j < arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.size(); j++) {
+                            strData = strData + "\n";
+                            strData = strData + "out_desc : " + arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j).out_desc + "\n";
+                            strData = strData + "run : " + arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j).r + "\n";
+                            strData = strData + "ball : " + arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j).b + "\n";
+                            strData = strData + "4s : " + arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j)._4s + "\n";
+                            strData = strData + "6s : " + arrayListSCRInningsMod.get(i).arrayListSCRBatsmenMod.get(j)._6s + "\n";
                         }
 
                     }
 
-                    if(arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod !=null && arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.size() > 0)
-                    {
+                    if (arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod != null && arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.size() > 0) {
                         strData = strData + "\n \n  ========BOWLERS=======\n \n";
 
-                        for(int j=0;j<arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.size(); j++)
-                        {
-                            strData = strData +"\n";
-                            strData = strData+ "over : "+ arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).o + "\n" ;
-                            strData = strData+ "m : "+ arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).m + "\n" ;
-                            strData = strData+ "run : "+ arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).r + "\n" ;
-                            strData = strData+ "wicket : "+ arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).w + "\n" ;
-                            strData = strData+ "no ball : "+ arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).n + "\n" ;
-                            strData = strData+ "wide ball : "+ arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).wd + "\n" ;
+                        for (int j = 0; j < arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.size(); j++) {
+                            strData = strData + "\n";
+                            strData = strData + "over : " + arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).o + "\n";
+                            strData = strData + "m : " + arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).m + "\n";
+                            strData = strData + "run : " + arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).r + "\n";
+                            strData = strData + "wicket : " + arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).w + "\n";
+                            strData = strData + "no ball : " + arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).n + "\n";
+                            strData = strData + "wide ball : " + arrayListSCRInningsMod.get(i).arrayListSCRBowlersMod.get(j).wd + "\n";
                         }
                     }
 
-                    if(arrayListSCRInningsMod.get(i).scrExtrasMod !=null)
-                    {
+                    if (arrayListSCRInningsMod.get(i).scrExtrasMod != null) {
                         strData = strData + "\n \n  ========EXTRAS=======\n \n";
-                        strData = strData+ "Total Extra : "+ arrayListSCRInningsMod.get(i).scrExtrasMod.t+ "\n" ;
-                        strData = strData+ "ball : "+ arrayListSCRInningsMod.get(i).scrExtrasMod.b+ "\n" ;
-                        strData = strData+ "lb : "+ arrayListSCRInningsMod.get(i).scrExtrasMod.lb+ "\n" ;
-                        strData = strData+ "wide ball : "+ arrayListSCRInningsMod.get(i).scrExtrasMod.wd+ "\n" ;
-                        strData = strData+ "no ball : "+ arrayListSCRInningsMod.get(i).scrExtrasMod.nb+ "\n" ;
-                        strData = strData+ "p : "+ arrayListSCRInningsMod.get(i).scrExtrasMod.p+ "\n" ;
+                        strData = strData + "Total Extra : " + arrayListSCRInningsMod.get(i).scrExtrasMod.t + "\n";
+                        strData = strData + "ball : " + arrayListSCRInningsMod.get(i).scrExtrasMod.b + "\n";
+                        strData = strData + "lb : " + arrayListSCRInningsMod.get(i).scrExtrasMod.lb + "\n";
+                        strData = strData + "wide ball : " + arrayListSCRInningsMod.get(i).scrExtrasMod.wd + "\n";
+                        strData = strData + "no ball : " + arrayListSCRInningsMod.get(i).scrExtrasMod.nb + "\n";
+                        strData = strData + "p : " + arrayListSCRInningsMod.get(i).scrExtrasMod.p + "\n";
 
                     }
 
-                    strData = strData +"\n \n ";
+                    strData = strData + "\n \n ";
 
                 }
 
@@ -282,9 +306,7 @@ public class ActScoreCard extends BaseActivity {
             tvDetail.setText(strData);
 
 
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

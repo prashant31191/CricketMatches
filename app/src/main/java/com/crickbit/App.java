@@ -86,7 +86,6 @@ public class App extends Application {
     public static String APP_FOLDERNAME = ".zzzzzz";
 
     // share pref name
-
     public static String PREF_NAME = "zzzzzz_app";
 
     // class for the share pref keys and valyes get set

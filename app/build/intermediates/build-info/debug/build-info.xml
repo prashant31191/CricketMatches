@@ -3,12 +3,12 @@
     build-mode="FULL"
     format="10"
     plugin-version="3.0.0-alpha3"
-    timestamp="1504524046852"
+    timestamp="1504849400480"
     verifier="NOT_RUN" >
 
     <task
         name="javac"
-        duration="397" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -19,17 +19,9 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="E:\Prashant\Github_Demo\CricketMatches\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1504524046852"
-        verifier="NOT_RUN" >
-        <artifact
-            location="E:\Prashant\Github_Demo\CricketMatches\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
+        timestamp="1504849400480"
+        verifier="NOT_RUN" />
 
 </instant-run>
