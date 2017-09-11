@@ -5,6 +5,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -29,6 +32,7 @@
         <activity android:name=".ActLiveMatchList"/>
         <activity android:name=".ActScoreCard"/>
         <activity android:name=".ActWebUrls"/>
+        <activity android:name="com.demo.ActPdf"/>
 
 
 
