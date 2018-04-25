@@ -1,233 +1,193 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cf5559ffc822be8e9bd9469da42085b9\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\96f570c81214236c191fe72dd3c4314a\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\bcb0cb610d405519fdab9f5d6ee60d77\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\9590a8ade801b930c6f4f04d1f4f0c83\AndroidManifest.xml:17:1-28:12
-MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\3b9ab765419e0746b5c78efe4a745466\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c5d835dfa42e4fee7ca466f570ebfab2\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5dd93de2814a72ad0177fc615a098878\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a4a528684ea74d34a4bc3ec5c7c4ac04\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\8bf25f3b5450b5dea3463f15ade69070\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\af986f853078078c8ac3dea6cb0a1668\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\9cd795b4b8e6e030c57b89efa5574078\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\7b6a88324293668f9585e8d1a8586319\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\28fa47c8188d22fe37c9f2f0fc05e3cf\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\338701a67cfa19f5e79d3377a7080f0e\AndroidManifest.xml:16:1-19:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\bf1a7d19554b4710e4a322745246f04d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\ffbe0edfb878a613dbb1922508441fb6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\49921e7d49c6d968d61ae862ca9e9dba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\f693fa80a97778392977fe9820dd3d17\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\d429c082f21f0da3133187bed38e0784\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\791982dddc0f5e988f0cf449287f9936\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\aef02e0bf6aaa6157c10ff203f270c23\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\048601a0acffecc2a591210d463a5e68\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ff7fccc023d353d1f93792c8e1a73c15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\0a76606f9768483934e5648b7d72b796\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\63a8c9b50265901777c7f1d0cb77429c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\616ee839a5da85ccf7348a16dbdfeb8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\08dc75f3cf171fca24c06aa32bf6d9f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\d8a2ebb09578eebbd7be47e2ed30cae9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d248c24a4e899d0c1d4dcdefde53cafb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1eec4b0cc6aea7aea712292947c88e6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\32166031fd9513de695fd2267f1ad830\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\0ab5a81cdbe637fa11ab08d431f91c76\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9d0208d621c4d8495299e8eb1d86ef9d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\47e155f9cc65e64aa9c63673584c6c01\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9f0dbb906f4225f0edc9981cdbe0b84\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\776bb159c789d14f58f35f95135f8281\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\420f37242878dca5b6eae26656b6554a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5bd997f3118b8802dd97efe2bfe9f52a\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:3:5-27
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:9:5-80
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:9:22-77
 application
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:11:5-49:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\96f570c81214236c191fe72dd3c4314a\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\96f570c81214236c191fe72dd3c4314a\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\bcb0cb610d405519fdab9f5d6ee60d77\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\bcb0cb610d405519fdab9f5d6ee60d77\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\9590a8ade801b930c6f4f04d1f4f0c83\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\9590a8ade801b930c6f4f04d1f4f0c83\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c5d835dfa42e4fee7ca466f570ebfab2\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c5d835dfa42e4fee7ca466f570ebfab2\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5dd93de2814a72ad0177fc615a098878\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5dd93de2814a72ad0177fc615a098878\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a4a528684ea74d34a4bc3ec5c7c4ac04\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a4a528684ea74d34a4bc3ec5c7c4ac04\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:29:5-20
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:11:5-49:19
 	android:supportsRtl
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:15:9-41
 	android:hardwareAccelerated
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:18:9-44
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:18:9-44
 	android:largeHeap
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:17:9-33
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:17:9-33
 	android:icon
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:19:9-40
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:12:9-28
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:12:9-28
 activity#com.crickbit.ActSplashScreen
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:19-50
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:21:19-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:25:27-74
 activity#com.crickbit.ActDashboard
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:31:9-49
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:31:9-49
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:31:19-47
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:31:19-47
 activity#com.crickbit.ActLiveMatchList
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:32:9-53
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:32:9-53
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:32:19-51
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:32:19-51
 activity#com.crickbit.ActScoreCard
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:33:9-49
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:33:9-49
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:33:19-47
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:33:19-47
 activity#com.crickbit.ActWebUrls
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:34:9-47
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:34:9-47
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:34:19-45
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:34:19-45
 activity#com.demo.ActPdf
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:35:9-51
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:35:9-51
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:35:19-49
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:35:19-49
 activity#com.crickbit.CricketMatchActivity
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:9-44:20
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:9-44:20
 	android:label
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:42:13-39
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:42:13-39
 	android:theme
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:43:13-46
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:43:13-46
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:19-55
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:19-55
 activity#com.crickbit.Main2Activity
-ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:45:9-48:21
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:45:9-48:21
 	android:label
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:46:13-34
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:46:13-34
 	android:theme
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:47:13-46
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:47:13-46
 	android:name
-		ADDED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:45:19-48
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:45:19-48
 uses-sdk
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cf5559ffc822be8e9bd9469da42085b9\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cf5559ffc822be8e9bd9469da42085b9\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\96f570c81214236c191fe72dd3c4314a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\96f570c81214236c191fe72dd3c4314a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\bcb0cb610d405519fdab9f5d6ee60d77\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\bcb0cb610d405519fdab9f5d6ee60d77\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\9590a8ade801b930c6f4f04d1f4f0c83\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\9590a8ade801b930c6f4f04d1f4f0c83\AndroidManifest.xml:20:5-43
-MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\3b9ab765419e0746b5c78efe4a745466\AndroidManifest.xml:7:5-9:41
-MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\3b9ab765419e0746b5c78efe4a745466\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c5d835dfa42e4fee7ca466f570ebfab2\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c5d835dfa42e4fee7ca466f570ebfab2\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5dd93de2814a72ad0177fc615a098878\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5dd93de2814a72ad0177fc615a098878\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a4a528684ea74d34a4bc3ec5c7c4ac04\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a4a528684ea74d34a4bc3ec5c7c4ac04\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\8bf25f3b5450b5dea3463f15ade69070\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\8bf25f3b5450b5dea3463f15ade69070\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\af986f853078078c8ac3dea6cb0a1668\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\af986f853078078c8ac3dea6cb0a1668\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\9cd795b4b8e6e030c57b89efa5574078\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\9cd795b4b8e6e030c57b89efa5574078\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\7b6a88324293668f9585e8d1a8586319\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\7b6a88324293668f9585e8d1a8586319\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\28fa47c8188d22fe37c9f2f0fc05e3cf\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\28fa47c8188d22fe37c9f2f0fc05e3cf\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\338701a67cfa19f5e79d3377a7080f0e\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\338701a67cfa19f5e79d3377a7080f0e\AndroidManifest.xml:18:5-42
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:23:9-75
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\bf1a7d19554b4710e4a322745246f04d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\bf1a7d19554b4710e4a322745246f04d\AndroidManifest.xml:20:5-44
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\ffbe0edfb878a613dbb1922508441fb6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\ffbe0edfb878a613dbb1922508441fb6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\49921e7d49c6d968d61ae862ca9e9dba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\49921e7d49c6d968d61ae862ca9e9dba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\f693fa80a97778392977fe9820dd3d17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\f693fa80a97778392977fe9820dd3d17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\d429c082f21f0da3133187bed38e0784\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\d429c082f21f0da3133187bed38e0784\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\791982dddc0f5e988f0cf449287f9936\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\791982dddc0f5e988f0cf449287f9936\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\aef02e0bf6aaa6157c10ff203f270c23\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\aef02e0bf6aaa6157c10ff203f270c23\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\048601a0acffecc2a591210d463a5e68\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\048601a0acffecc2a591210d463a5e68\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ff7fccc023d353d1f93792c8e1a73c15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ff7fccc023d353d1f93792c8e1a73c15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\0a76606f9768483934e5648b7d72b796\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\0a76606f9768483934e5648b7d72b796\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\63a8c9b50265901777c7f1d0cb77429c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\63a8c9b50265901777c7f1d0cb77429c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\616ee839a5da85ccf7348a16dbdfeb8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\616ee839a5da85ccf7348a16dbdfeb8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\08dc75f3cf171fca24c06aa32bf6d9f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\08dc75f3cf171fca24c06aa32bf6d9f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\d8a2ebb09578eebbd7be47e2ed30cae9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\d8a2ebb09578eebbd7be47e2ed30cae9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d248c24a4e899d0c1d4dcdefde53cafb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d248c24a4e899d0c1d4dcdefde53cafb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1eec4b0cc6aea7aea712292947c88e6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1eec4b0cc6aea7aea712292947c88e6b\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\32166031fd9513de695fd2267f1ad830\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\32166031fd9513de695fd2267f1ad830\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\0ab5a81cdbe637fa11ab08d431f91c76\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\0ab5a81cdbe637fa11ab08d431f91c76\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9d0208d621c4d8495299e8eb1d86ef9d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9d0208d621c4d8495299e8eb1d86ef9d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\47e155f9cc65e64aa9c63673584c6c01\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\47e155f9cc65e64aa9c63673584c6c01\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9f0dbb906f4225f0edc9981cdbe0b84\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9f0dbb906f4225f0edc9981cdbe0b84\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\776bb159c789d14f58f35f95135f8281\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\776bb159c789d14f58f35f95135f8281\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\420f37242878dca5b6eae26656b6554a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\420f37242878dca5b6eae26656b6554a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5bd997f3118b8802dd97efe2bfe9f52a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5bd997f3118b8802dd97efe2bfe9f52a\AndroidManifest.xml:20:5-44
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:design:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\577a50779d840d7fcd57fa525ec908c4\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cf5559ffc822be8e9bd9469da42085b9\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\cf5559ffc822be8e9bd9469da42085b9\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\96f570c81214236c191fe72dd3c4314a\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\96f570c81214236c191fe72dd3c4314a\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\bcb0cb610d405519fdab9f5d6ee60d77\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\bcb0cb610d405519fdab9f5d6ee60d77\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\9590a8ade801b930c6f4f04d1f4f0c83\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\9590a8ade801b930c6f4f04d1f4f0c83\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5f51899900390ba19c04b07a63538c44\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c5d835dfa42e4fee7ca466f570ebfab2\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c5d835dfa42e4fee7ca466f570ebfab2\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5dd93de2814a72ad0177fc615a098878\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5dd93de2814a72ad0177fc615a098878\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a4a528684ea74d34a4bc3ec5c7c4ac04\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a4a528684ea74d34a4bc3ec5c7c4ac04\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4380e540d57acff39079e95738110a99\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d779830f4ff23e5e6fd269ca7e99311b\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9a206091f0d4081af66e77591ffa3ee0\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\eb8009eb214f549d4d1fdaff300cd07c\AndroidManifest.xml:26:9-47
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml

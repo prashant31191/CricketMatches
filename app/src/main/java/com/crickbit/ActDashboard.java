@@ -14,8 +14,7 @@ import com.utils.PreferencesKeys;
  * Created by prashant.patel on 9/4/2017.
  */
 
-public class ActDashboard extends BaseActivity
-{
+public class ActDashboard extends BaseActivity {
     Button btnLiveMatch;
     String strTitle = "Dashboard";
 
@@ -29,10 +28,8 @@ public class ActDashboard extends BaseActivity
             App.sharePrefrences.setPref(PreferencesKeys.strMenuSelectedId, "0");
             initialization();
             setClickEvent();
-        }
-        catch (Exception e)
-        {
-        e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -43,9 +40,8 @@ public class ActDashboard extends BaseActivity
         btnLiveMatch = (Button) findViewById(R.id.btnLiveMatch);
 
 
-
-
     }
+
     private void setClickEvent() {
         btnLiveMatch.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,1 +1,1 @@
-[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1},"outputFile":{"path":"E:\\Prashant\\Github_Demo\\CricketMatches\\app\\build\\intermediates\\manifests\\full\\debug\\AndroidManifest.xml"},"properties":{"packageId":"com.crickbit","split":""}}]
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1},"path":"AndroidManifest.xml","properties":{"packageId":"com.crickbit","split":"","minSdkVersion":"15"}}]

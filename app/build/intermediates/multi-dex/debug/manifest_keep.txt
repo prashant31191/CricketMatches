@@ -1,3 +1,3 @@
-# Referenced at E:\Prashant\Github_Demo\CricketMatches\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:20
+# Referenced at D:\Prashant\Github_Demo\CricketMatches\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:16
 -keep class com.crickbit.App { <init>(...); }
 

@@ -1,1 +1,1 @@
-[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1},"outputFile":{"path":"E:\\Prashant\\Github_Demo\\CricketMatches\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_"},"properties":{"packageId":"com.crickbit","split":""}}]
+[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1},"path":"resources-debug.ap_","properties":{"packageId":"com.crickbit","split":"","minSdkVersion":"15"}}]

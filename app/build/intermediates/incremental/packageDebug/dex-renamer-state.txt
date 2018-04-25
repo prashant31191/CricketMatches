@@ -1,7 +1,0 @@
-#Sat Sep 09 18:44:58 IST 2017
-base.0=E\:\\Prashant\\Github_Demo\\CricketMatches\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=E\:\\Prashant\\Github_Demo\\CricketMatches\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex
-base.1=E\:\\Prashant\\Github_Demo\\CricketMatches\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-file.0=E\:\\Prashant\\Github_Demo\\CricketMatches\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
