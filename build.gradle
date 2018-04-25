@@ -14,6 +14,8 @@ buildscript {
         classpath 'com.google.gms:google-services:3.2.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.0'
     }
 }
 
@@ -21,7 +23,7 @@ ext{
     googlePlayServiceVersion = "11.8.0"
     supportVersion = "27.1.0"
     retrofitVersion = "2.3.0"
-    basicStuffRecyclerviewVersion = "0.2.2"
+    kotlin_version = "1.2.0"
 }
 
 allprojects {

@@ -1,47 +1,48 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\bf1a7d19554b4710e4a322745246f04d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\ffbe0edfb878a613dbb1922508441fb6\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\49921e7d49c6d968d61ae862ca9e9dba\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\f693fa80a97778392977fe9820dd3d17\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\d429c082f21f0da3133187bed38e0784\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\791982dddc0f5e988f0cf449287f9936\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\aef02e0bf6aaa6157c10ff203f270c23\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\048601a0acffecc2a591210d463a5e68\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ff7fccc023d353d1f93792c8e1a73c15\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\0a76606f9768483934e5648b7d72b796\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\63a8c9b50265901777c7f1d0cb77429c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\616ee839a5da85ccf7348a16dbdfeb8f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\08dc75f3cf171fca24c06aa32bf6d9f7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\d8a2ebb09578eebbd7be47e2ed30cae9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d248c24a4e899d0c1d4dcdefde53cafb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1eec4b0cc6aea7aea712292947c88e6b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\32166031fd9513de695fd2267f1ad830\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\0ab5a81cdbe637fa11ab08d431f91c76\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9d0208d621c4d8495299e8eb1d86ef9d\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\47e155f9cc65e64aa9c63673584c6c01\AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9f0dbb906f4225f0edc9981cdbe0b84\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\776bb159c789d14f58f35f95135f8281\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\420f37242878dca5b6eae26656b6554a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5bd997f3118b8802dd97efe2bfe9f52a\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\ca781f3cceffdd5c7b5d530c3336b9a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\ff02dee4061bdcc213dc1b15ff930f70\AndroidManifest.xml:17:1-22:12
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\eaada59139f71f31a7764c130a8feaa5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b2a6d0c2e477552a414f9f5d7bc418e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\6439b7419ac88826e99a2f036f3dd0ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\4616866cdcbae553c7a0ee6b862a2cab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\34d592427af3a1ec4945140b772a9b1c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\cef02f15634a692955e306101f69235d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\98050a0f3dea42d16bf318aa58ba3ec7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\0c1c06edcb7a18dcf86352d0495cff65\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\27ab505c34967769262c11d5d7e0ef91\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\4b623eb167b3d5440ccc65cb3bbad96d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\0deefb6ad5fb3b50a602ecf4e8562824\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\ddac94d7498d967739d792a61e94a997\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\cde8b965a56a7698239470d3bd119a64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\a81f983607554ae95deff90ebf2e0589\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\b604753757a6c6ae3374533bd123af27\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\59037028a388d4570ada838b1623d270\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\b4f24ef632460dc59907a1f6649fff42\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9157503c5f20d5fb87227d67430ff717\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\66b66d6453b71262b431477f0286109c\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cc8978ec60b2ce1758a27a853e9c5304\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0ac382238dc05e380b87e75fb0ad5b27\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\12e20b7960b9aa3a987a30503a19e988\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7d7215486a87d0519e8cd284bb0d08ac\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:3:5-27
 		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:2:11-69
@@ -62,7 +63,9 @@ ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:9:22-77
 application
-ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:11:5-49:19
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:11:5-45:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\98050a0f3dea42d16bf318aa58ba3ec7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\98050a0f3dea42d16bf318aa58ba3ec7\AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
@@ -109,78 +112,76 @@ activity#com.crickbit.ActWebUrls
 ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:34:9-47
 	android:name
 		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:34:19-45
-activity#com.demo.ActPdf
-ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:35:9-51
-	android:name
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:35:19-49
 activity#com.crickbit.CricketMatchActivity
-ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:9-44:20
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:37:9-40:20
 	android:label
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:42:13-39
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:38:13-39
+	android:theme
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:39:13-46
+	android:name
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:37:19-55
+activity#com.crickbit.Main2Activity
+ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:9-44:21
+	android:label
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:42:13-34
 	android:theme
 		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:43:13-46
 	android:name
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:19-55
-activity#com.crickbit.Main2Activity
-ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:45:9-48:21
-	android:label
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:46:13-34
-	android:theme
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:47:13-46
-	android:name
-		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:45:19-48
+		ADDED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml:41:19-48
 uses-sdk
 INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\bf1a7d19554b4710e4a322745246f04d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\bf1a7d19554b4710e4a322745246f04d\AndroidManifest.xml:20:5-44
-MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\ffbe0edfb878a613dbb1922508441fb6\AndroidManifest.xml:7:5-9:41
-MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\ffbe0edfb878a613dbb1922508441fb6\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\49921e7d49c6d968d61ae862ca9e9dba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\49921e7d49c6d968d61ae862ca9e9dba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\f693fa80a97778392977fe9820dd3d17\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\f693fa80a97778392977fe9820dd3d17\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\d429c082f21f0da3133187bed38e0784\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\d429c082f21f0da3133187bed38e0784\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\791982dddc0f5e988f0cf449287f9936\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\791982dddc0f5e988f0cf449287f9936\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\aef02e0bf6aaa6157c10ff203f270c23\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\aef02e0bf6aaa6157c10ff203f270c23\AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\048601a0acffecc2a591210d463a5e68\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\048601a0acffecc2a591210d463a5e68\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ff7fccc023d353d1f93792c8e1a73c15\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\ff7fccc023d353d1f93792c8e1a73c15\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\0a76606f9768483934e5648b7d72b796\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\0a76606f9768483934e5648b7d72b796\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\63a8c9b50265901777c7f1d0cb77429c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\63a8c9b50265901777c7f1d0cb77429c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\616ee839a5da85ccf7348a16dbdfeb8f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\616ee839a5da85ccf7348a16dbdfeb8f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\08dc75f3cf171fca24c06aa32bf6d9f7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\08dc75f3cf171fca24c06aa32bf6d9f7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\d8a2ebb09578eebbd7be47e2ed30cae9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\d8a2ebb09578eebbd7be47e2ed30cae9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d248c24a4e899d0c1d4dcdefde53cafb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\d248c24a4e899d0c1d4dcdefde53cafb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1eec4b0cc6aea7aea712292947c88e6b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1eec4b0cc6aea7aea712292947c88e6b\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\32166031fd9513de695fd2267f1ad830\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\32166031fd9513de695fd2267f1ad830\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\0ab5a81cdbe637fa11ab08d431f91c76\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\0ab5a81cdbe637fa11ab08d431f91c76\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9d0208d621c4d8495299e8eb1d86ef9d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9d0208d621c4d8495299e8eb1d86ef9d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\47e155f9cc65e64aa9c63673584c6c01\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\47e155f9cc65e64aa9c63673584c6c01\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9f0dbb906f4225f0edc9981cdbe0b84\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a9f0dbb906f4225f0edc9981cdbe0b84\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\776bb159c789d14f58f35f95135f8281\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\776bb159c789d14f58f35f95135f8281\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\420f37242878dca5b6eae26656b6554a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\420f37242878dca5b6eae26656b6554a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5bd997f3118b8802dd97efe2bfe9f52a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\5bd997f3118b8802dd97efe2bfe9f52a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\ca781f3cceffdd5c7b5d530c3336b9a5\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\ca781f3cceffdd5c7b5d530c3336b9a5\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\ff02dee4061bdcc213dc1b15ff930f70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\ff02dee4061bdcc213dc1b15ff930f70\AndroidManifest.xml:20:5-44
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\eaada59139f71f31a7764c130a8feaa5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\library-1.3.0.aar\eaada59139f71f31a7764c130a8feaa5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b2a6d0c2e477552a414f9f5d7bc418e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\b2a6d0c2e477552a414f9f5d7bc418e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\6439b7419ac88826e99a2f036f3dd0ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\6439b7419ac88826e99a2f036f3dd0ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\4616866cdcbae553c7a0ee6b862a2cab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\4616866cdcbae553c7a0ee6b862a2cab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\34d592427af3a1ec4945140b772a9b1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\34d592427af3a1ec4945140b772a9b1c\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\cef02f15634a692955e306101f69235d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fresco-1.5.0.aar\cef02f15634a692955e306101f69235d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\98050a0f3dea42d16bf318aa58ba3ec7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\98050a0f3dea42d16bf318aa58ba3ec7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\0c1c06edcb7a18dcf86352d0495cff65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\0c1c06edcb7a18dcf86352d0495cff65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\27ab505c34967769262c11d5d7e0ef91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\27ab505c34967769262c11d5d7e0ef91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\4b623eb167b3d5440ccc65cb3bbad96d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\4b623eb167b3d5440ccc65cb3bbad96d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\0deefb6ad5fb3b50a602ecf4e8562824\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\0deefb6ad5fb3b50a602ecf4e8562824\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\ddac94d7498d967739d792a61e94a997\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\ddac94d7498d967739d792a61e94a997\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\cde8b965a56a7698239470d3bd119a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\cde8b965a56a7698239470d3bd119a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\a81f983607554ae95deff90ebf2e0589\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\a81f983607554ae95deff90ebf2e0589\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\b604753757a6c6ae3374533bd123af27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\b604753757a6c6ae3374533bd123af27\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\59037028a388d4570ada838b1623d270\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\drawee-1.5.0.aar\59037028a388d4570ada838b1623d270\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\b4f24ef632460dc59907a1f6649fff42\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.5.0.aar\b4f24ef632460dc59907a1f6649fff42\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9157503c5f20d5fb87227d67430ff717\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.5.0.aar\9157503c5f20d5fb87227d67430ff717\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\66b66d6453b71262b431477f0286109c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.5.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\fbcore-1.5.0.aar\66b66d6453b71262b431477f0286109c\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cc8978ec60b2ce1758a27a853e9c5304\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cc8978ec60b2ce1758a27a853e9c5304\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0ac382238dc05e380b87e75fb0ad5b27\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0ac382238dc05e380b87e75fb0ad5b27\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\12e20b7960b9aa3a987a30503a19e988\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\12e20b7960b9aa3a987a30503a19e988\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7d7215486a87d0519e8cd284bb0d08ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\prashant.chovatiya\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7d7215486a87d0519e8cd284bb0d08ac\AndroidManifest.xml:20:5-44
 INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 INJECTED from D:\Prashant\Github_Demo\CricketMatches\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

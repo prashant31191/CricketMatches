@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.0"
@@ -20,23 +24,27 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    androidExtensions {
+        experimental = true
+    }
 }
 
 dependencies {
 
 
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile "com.android.support:appcompat-v7:$supportVersion"
-    compile "com.android.support:design:$supportVersion"
-    compile "com.android.support:support-v4:$supportVersion"
-    compile "com.android.support:recyclerview-v7:$supportVersion"
-    compile "com.android.support:cardview-v7:$supportVersion"
+    //compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    implementation "com.android.support:appcompat-v7:$supportVersion"
+    implementation "com.android.support:design:$supportVersion"
+    implementation "com.android.support:support-v4:$supportVersion"
+    implementation "com.android.support:recyclerview-v7:$supportVersion"
+    implementation "com.android.support:cardview-v7:$supportVersion"
 
     // multi dex error resolve
-    compile 'com.android.support:multidex:1.0.0'
+    implementation 'com.android.support:multidex:1.0.0'
     // Retrofit XML converter (Simple)
     compile('com.squareup.retrofit2:converter-simplexml:2.3.0') {
         exclude group: 'xpp3', module: 'xpp3'
@@ -45,17 +53,23 @@ dependencies {
     }
     //Json
     // Retrofit & OkHttp
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     //for the animated splash screen
-    compile 'com.flaviofaria:kenburnsview:1.0.6'
+    implementation 'com.flaviofaria:kenburnsview:1.0.6'
     // MaterialRefreshLayout v1.3.0
-    compile 'com.cjj.materialrefeshlayout:library:1.3.0'
+    implementation 'com.cjj.materialrefeshlayout:library:1.3.0'
     //for the image loading
-    compile'com.facebook.fresco:fresco:1.5.0'
+    implementation'com.facebook.fresco:fresco:1.5.0'
     //for the pdf views
-    //compile 'org.apache.pdfbox:pdfbox:2.0.2'
-    testCompile 'junit:junit:4.12'
-    //compile files('src/main/libs/pdfbox-2.0.2.jar')
-    compile files('src/main/libs/pdfbox-2.0.7.jar')
+
+    // for the kotline
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'org.jetbrains.anko:anko:0.10.3'
+
 }

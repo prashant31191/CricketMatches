@@ -1,7 +1,6 @@
 package com.crickbit;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +11,6 @@ import com.api.model.SCRInningsMod;
 import com.api.response.ScorecardRes;
 import com.cjj.MaterialRefreshLayout;
 import com.cjj.MaterialRefreshListener;
-import com.demo.ActPdf;
 import com.google.gson.Gson;
 import com.utils.AppFlags;
 import com.utils.CustomProgressDialog;

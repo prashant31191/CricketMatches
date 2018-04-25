@@ -32,10 +32,6 @@
         <activity android:name=".ActLiveMatchList"/>
         <activity android:name=".ActScoreCard"/>
         <activity android:name=".ActWebUrls"/>
-        <activity android:name="com.demo.ActPdf"/>
-
-
-
 
 
         <activity android:name=".CricketMatchActivity"
